@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A2238; 
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+h2 {
+    color: #4CC9F0; 
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-shadow: 0 2px 8px rgba(76, 201, 240, 0.8);
+    letter-spacing: 2px;
+}
+
+marquee {
+    padding: 10px;
+    background-color: #16213E; 
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+    animation: fadeIn 1s ease-in-out;
+}
+
+img {
+    width: 400px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(76, 201, 240, 0.8);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}

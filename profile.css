@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1A2238; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white; 
+}
+
+.profile-container {
+    background-color: #16213E; 
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
+    width: 80%;
+    max-width: 500px;
+    transition: transform 0.3s ease; 
+}
+
+.profile-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(27, 75, 133, 0.7);
+}
+
+h2 {
+    color: #4CC9F0;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+strong {
+    color: #4CC9F0;
+}
